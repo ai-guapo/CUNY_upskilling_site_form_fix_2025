@@ -1,8 +1,9 @@
-markdown
-
 # CUNY Upskilling Form Fix
+![image](https://github.com/user-attachments/assets/955fb07d-2b0f-484c-acae-26dee679ae7e)
 
 A userscript to correct the error on the CUNY Upskilling registration page. After filling out the entire form the user is given the error message: "Please review the current page (1 of 1) and fill in valid responses for each field: Which of these statements best describes you?". However, the field isn't available in the form. This script reveals that field, allowing the user to properly submit the form.
+
+
 
 ## Installation
 1. Install Tampermonkey or another userscript manager.
@@ -16,5 +17,5 @@ A userscript to correct the error on the CUNY Upskilling registration page. Afte
 - Works dynamically with DOM changes.
 
 ## License
-MIT (or whatever you choose—see below).
+MIT.
 
